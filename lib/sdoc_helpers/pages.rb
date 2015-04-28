@@ -1,4 +1,4 @@
-require 'rake/rdoctask'
+require 'rdoc/task'
 
 readme = Dir['*'].grep(/README/)[0]
 files = [ readme, 'LICENSE', 'lib' ]
